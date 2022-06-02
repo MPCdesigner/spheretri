@@ -17,4 +17,4 @@ for k=1:length(theta)
 end
 
 Y = R*sqrt(2)*sin(a);                                             % a = the theta in https://en.wikipedia.org/w/index.php?title=Mollweide_projection&oldid=1073635466
-X = R*2*sqrt(2)*cos(a).*(phi-pi)/pi;                              % (lambda - lamdba0)/pi = (phi-pi)/pi). lamdda0=0; lambda=phi-pi.
+X = R*2*sqrt(2)*cos(a).*phi/pi;                                   % (lambda - lamdba0)/pi = phi/pi. lamdda0=0; lambda=phi.
