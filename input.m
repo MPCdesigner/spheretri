@@ -1,7 +1,7 @@
 n=2;R=1;
 %[v, f]=icosahedron();
 %[v, f]=spheretri(n)
-[v, f]=spheretribydepth(3);
+[v, f]=spheretribydepth(n);
 [X, Y, indicesOfBadPairs] = mollweide(v,1);
 for k=1:length(f)
     for j=1:2
